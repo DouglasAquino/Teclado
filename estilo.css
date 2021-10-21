@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.nav-nav {
+    width: 38%;
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.nav-nav .item {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.nav-nav .item:hover {
+    color: #E9E41D;
+    cursor: pointer;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto {
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.foto:hover {
+    border: 3px solid #E9E41D;
+}
+
+.nome {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome:hover {
+    color: #E9E41D;
+}
+
+.desafio-corpo {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    margin-top: 120px;
+    flex-direction: column;
+}
+
+.desafio {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conjunto-desafio {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9E41D;
+    border-radius: 10px;
+    box-shadow: 0.2rem 0.2rem 2px #000;
+}
+
+.img-desafio {
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+
+.nome-desafio {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.teclado {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.teclas {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linha {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.btn-linha {
+    border: 1px solid #fff;
+    width: 85px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-linha:hover {
+    color: #E9E41D;
+    font-size: 19px;
+}
+
+.espaco {
+    width: 50%;
+}
+
+.espaco:hover {
+    background-color: #E9E41D;
+    border: 1px solid #000;
+}
+
+.Backspace {
+    width: 120px;
+}
+
+.caps {
+    width: 120px;
+}
+
+.enter {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom: 0px;
+    width: 85px;
+    
+}
+
+.enter-bottom {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0px;
+    width: 81px;
+}
+
+.coisas {
+    font-size: 28px;
+}
+
+.coisas:hover{
+    font-size: 32px;
+}
